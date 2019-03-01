@@ -358,6 +358,9 @@
           
 
   
+    <div class="comments" id="comments">
+    </div>
+  
 
 
 
@@ -398,12 +401,21 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
             
 
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
             
 
             
@@ -440,18 +452,6 @@
                         <i class="fa fa-fw fa-google"></i>Google</a>
                   </span>
                 
-                  <span class="links-of-author-item">
-                    <a href="https://twitter.com/yourname" target="_blank" title="Twitter">
-                      
-                        <i class="fa fa-fw fa-twitter"></i>Twitter</a>
-                  </span>
-                
-                  <span class="links-of-author-item">
-                    <a href="https://instagram.com/yourname" target="_blank" title="Instagram">
-                      
-                        <i class="fa fa-fw fa-instagram"></i>Instagram</a>
-                  </span>
-                
             </div>
           
 
@@ -460,7 +460,7 @@
 
           
           
-            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+            <div class="links-of-blogroll motion-element links-of-blogroll-inline">
               <div class="links-of-blogroll-title">
                 <i class="fa  fa-fw fa-link"></i>
                 友情链接
@@ -468,11 +468,11 @@
               <ul class="links-of-blogroll-list">
                 
                   <li class="links-of-blogroll-item">
-                    <a href="https://rookie6.github.io" title="luo" target="_blank">luo</a>
+                    <a href="https://rookie6.github.io" title="罗老骚" target="_blank">罗老骚</a>
                   </li>
                 
                   <li class="links-of-blogroll-item">
-                    <a href="https://blog.todest.cn" title="guo" target="_blank">guo</a>
+                    <a href="https://blog.todest.cn" title="郭最骚" target="_blank">郭最骚</a>
                   </li>
                 
               </ul>
@@ -506,6 +506,15 @@
   <span class="author" itemprop="copyrightHolder">asbboy</span>
 
   
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count">553</span>
+  
 </div>
 
 
@@ -528,7 +537,7 @@
 
   
     <span class="site-uv">
-      <i class="fa fa-user"></i>
+      <i class="fa fa-user"></i>访问人数
       <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
       
     </span>
@@ -536,7 +545,7 @@
 
   
     <span class="site-pv">
-      <i class="fa fa-eye"></i>
+      <i class="fa fa-eye"></i>总访问量
       <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
       
     </span>
@@ -689,6 +698,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'w7bqasGgom3HIDqWl2DXTHul-gzGzoHsz',
+        appKey: 'fGUG8dGmiN7xyfKdkHUY2VMt',
+        placeholder: 'THIS WHY WE PLAY',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
@@ -1033,7 +1064,7 @@
   
   <!-- 页面点击小红心 --> 
 	<script type="text/javascript" src="/js/src/love.js"></script>
-
+	
 	
 </body>
 </html>

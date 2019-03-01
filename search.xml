@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[带权并查集]]></title>
+    <url>%2FfirstOne%2F</url>
+    <content type="text"><![CDATA[D - 还是畅通工程 某省调查乡村交通状况，得到的统计表中列出了任意两村庄间的距离。省政府“畅通工程”的目标是使全省任何两个村庄间都可以实现公路交通（但不一定有直接的公路相连，只要能间接通过公路可达即可），并要求铺设的公路总长度为最小。请计算最小的公路总长度。 Input 测试输入包含若干测试用例。每个测试用例的第1行给出村庄数目N ( &lt; 100 )；随后的N(N-1)/2行对应村庄间的距离，每行给出一对正整数，分别是两个村庄的编号，以及此两村庄间的距离。为简单起见，村庄从1到N编号。当N为0时，输入结束，该用例不被处理。 对每个测试用例，在1行里输出最小的公路总长度。 Sample Input 3 1 2 1 1 3 2 2 3 4 4 1 2 1 1 3 4 1 4 1 2 3 3 2 4 2 3 4 5 Output 0 代码 #include &lt;cstdio&gt; #include &lt;algorithm&gt; using namespace std; int f[105]; struct ss { int x,y,z; }a[5000]; bool cmp(ss a, ss b) //权值排序 { return a.z&lt;b.z; } int find(int x) //找根节点（掌门人） { int r=x; while (f[r]!=r) { r=f[r]; } return r; } int main () { int N,n; while(scanf(&quot;%d&quot;,&amp;N),N) { int s = 0; n = N*(N-1)/2; for(int i =1;i&lt;=N;i++)// 初始化 { f[i] = i; } for(int i = 1;i&lt;=n;i++) { scanf(&quot;%d%d%d&quot;,&amp;a[i].x,&amp;a[i].y,&amp;a[i].z); } sort(a+1,a+n+1,cmp); for(int i = 1;i&lt;=n;i++) { int b=find(a[i].x);//找他们的各自的掌门 int c=find(a[i].y); if(b==c)continue;//如果相同跳出 f[c]=b; //合并操作 ， 把一个掌门加到另一个掌门下面 s= s + a[i].z; } printf(&quot;%d\n&quot;,s); } return 0; } output 3 5]]></content>
+      <categories>
+        <category>category</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
