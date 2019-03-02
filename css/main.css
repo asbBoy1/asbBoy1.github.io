@@ -1940,7 +1940,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a8b0e2;
+  background: #ff28a3;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2784,6 +2784,9 @@ embed {
   padding: 25px;
   -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+}
+.post-type-normal {
+  background-color: rgba(255,255,255,0.8);
 }
 .posts-expand .post-eof {
   display: block;
