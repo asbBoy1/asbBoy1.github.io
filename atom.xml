@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://asbboy1.github.io/"/>
-  <updated>2019-03-01T04:20:13.183Z</updated>
+  <updated>2019-03-04T04:21:42.736Z</updated>
   <id>https://asbboy1.github.io/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>爱情始于五官</title>
+    <link href="https://asbboy1.github.io/dier/"/>
+    <id>https://asbboy1.github.io/dier/</id>
+    <published>2019-03-04T03:38:42.929Z</published>
+    <updated>2019-03-04T04:21:42.736Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;font color=&quot;#00ffff&quot; size=&quot;6&quot;&gt;爱情始于五官，陷于三观，忠于有趣的灵魂&lt;/font&gt;
+
+&lt;p&gt;导读：一段爱情，因五官而始，因三观而终，因有趣而美好。余生很长，找个有趣的人在一起才不会感觉难熬；余生很短，找个有趣的人在一起才会每天都值得。&lt;/p&gt;
+&lt;p
+      
+    
+    </summary>
+    
+      <category term="闲谈" scheme="https://asbboy1.github.io/categories/%E9%97%B2%E8%B0%88/"/>
+    
+    
+      <category term="-闲谈" scheme="https://asbboy1.github.io/tags/%E9%97%B2%E8%B0%88/"/>
+    
+  </entry>
+  
+  <entry>
     <title>带权并查集</title>
     <link href="https://asbboy1.github.io/firstOne/"/>
     <id>https://asbboy1.github.io/firstOne/</id>
     <published>2019-03-01T03:42:24.295Z</published>
-    <updated>2019-03-01T04:20:13.183Z</updated>
+    <updated>2019-03-04T04:20:49.186Z</updated>
     
     <summary type="html">
     
@@ -33,8 +59,10 @@
     
     </summary>
     
-      <category term="category" scheme="https://asbboy1.github.io/categories/category/"/>
+      <category term="ACM" scheme="https://asbboy1.github.io/categories/ACM/"/>
     
+    
+      <category term="-并查集" scheme="https://asbboy1.github.io/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
     
   </entry>
   
