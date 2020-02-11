@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://asbboy1.github.io/"/>
-  <updated>2020-02-11T11:47:53.809Z</updated>
+  <updated>2020-02-11T11:58:53.998Z</updated>
   <id>https://asbboy1.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://asbboy1.github.io/%E5%92%8C%E5%B0%8F%E5%BC%A0%E7%9A%84%E5%BC%80%E5%A7%8B/"/>
     <id>https://asbboy1.github.io/和小张的开始/</id>
     <published>2020-02-11T11:30:21.961Z</published>
-    <updated>2020-02-11T11:47:53.809Z</updated>
+    <updated>2020-02-11T11:58:53.998Z</updated>
     
     <summary type="html">
     
@@ -33,6 +33,10 @@
     
     </summary>
     
+      <category term="闲谈" scheme="https://asbboy1.github.io/categories/%E9%97%B2%E8%B0%88/"/>
+    
+    
+      <category term="-闲谈" scheme="https://asbboy1.github.io/tags/%E9%97%B2%E8%B0%88/"/>
     
   </entry>
   
